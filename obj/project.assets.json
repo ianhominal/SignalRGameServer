@@ -2079,11 +2079,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ianho\\source\\repos\\SignalRTest\\SignalRTest.csproj",
+      "projectUniqueName": "D:\\Repo\\SignalRGameServer\\SignalRTest.csproj",
       "projectName": "SignalRTest",
-      "projectPath": "C:\\Users\\ianho\\source\\repos\\SignalRTest\\SignalRTest.csproj",
+      "projectPath": "D:\\Repo\\SignalRGameServer\\SignalRTest.csproj",
       "packagesPath": "C:\\Users\\ianho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ianho\\source\\repos\\SignalRTest\\obj\\",
+      "outputPath": "D:\\Repo\\SignalRGameServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

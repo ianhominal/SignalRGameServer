@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Tf90thnjXkgKSUXjzTsZP9RaCA7VxOSuVFuR+vbRYMw4VccjIFK/WeQjfwJrHdxc5+osigzmpUWrKhR7tXqbWg==",
+  "dgSpecHash": "zFyCAAgpkM7E49t9yJyyA8s6tr5A80xO3kMcaLx5Ojwr7ousAynOkvxo1WSsEqTeEM/J0kkzEzNfzWd1d2tvGg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ianho\\source\\repos\\SignalRTest\\SignalRTest.csproj",
+  "projectFilePath": "D:\\Repo\\SignalRGameServer\\SignalRTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ianho\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\ianho\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",

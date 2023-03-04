@@ -10,7 +10,18 @@ namespace SignalRTest.Hubs
         public async Task EndTurn(string gameGuid)
         {
             // Aquí puedes actualizar la base de datos y luego notificar al otro jugador
+
             await Clients.Others.SendAsync("UpdateGameState", gameGuid);
         }
+
+
+        [AllowAnonymous] // Agregar esta línea
+        public async Task CreateNewGame(string gameGuid)
+        {
+            // Aquí puedes actualizar la base de datos y luego notificar al otro jugador
+
+            await Clients.Others.SendAsync("UpdateGameState", gameGuid);
+        }
+
     }
 }

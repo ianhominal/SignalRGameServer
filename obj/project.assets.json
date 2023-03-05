@@ -2073,21 +2073,17 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ianho\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\ianho\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repo\\SignalRGameServer\\SignalRTest.csproj",
+      "projectUniqueName": "C:\\Repo\\SignalRGameServer\\SignalRTest.csproj",
       "projectName": "SignalRTest",
-      "projectPath": "D:\\Repo\\SignalRGameServer\\SignalRTest.csproj",
+      "projectPath": "C:\\Repo\\SignalRGameServer\\SignalRTest.csproj",
       "packagesPath": "C:\\Users\\ianho\\.nuget\\packages\\",
-      "outputPath": "D:\\Repo\\SignalRGameServer\\obj\\",
+      "outputPath": "C:\\Repo\\SignalRGameServer\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\ianho\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -2139,16 +2135,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.10, 3.1.10]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.32, 3.1.32]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -2157,7 +2143,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,11 +1,18 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.SignalR;
+using SignalRTest.Models;
+using SignalRTest.Services;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace SignalRTest.Hubs
 {
     public class GameHub : Hub
     {
+        public List<GameModel> ActualGames;
+        public GameHub() { ActualGames = new List<GameModel>(); }
+
+
         [AllowAnonymous] // Agregar esta línea
         public async Task EndTurn(string gameGuid)
         {
@@ -16,11 +23,12 @@ namespace SignalRTest.Hubs
 
 
         [AllowAnonymous] // Agregar esta línea
-        public async Task CreateNewGame(string gameGuid)
+        public async Task CreateNewGame(PlayerModel playerInfo)
         {
-            // Aquí puedes actualizar la base de datos y luego notificar al otro jugador
+            var newRound = GameService.NewGameRound(playerInfo);
+            ActualGames.Add(newRound);
 
-            await Clients.Others.SendAsync("UpdateGameState", gameGuid);
+            await Clients.Others.SendAsync("UpdateOnlineGames", playerInfo.PlayerId, ActualGames);
         }
 
     }

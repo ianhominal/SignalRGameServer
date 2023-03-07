@@ -84,3 +84,7 @@ D:\Repo\SignalRGameServer\obj\Debug\netcoreapp3.1\SignalRTest.csproj.CopyComplet
 D:\Repo\SignalRGameServer\obj\Debug\netcoreapp3.1\SignalRTest.dll
 D:\Repo\SignalRGameServer\obj\Debug\netcoreapp3.1\SignalRTest.pdb
 D:\Repo\SignalRGameServer\obj\Debug\netcoreapp3.1\SignalRTest.genruntimeconfig.cache
+D:\Repo\SignalRGameServer\bin\Debug\netcoreapp3.1\Google.Apis.dll
+D:\Repo\SignalRGameServer\bin\Debug\netcoreapp3.1\Google.Apis.Auth.PlatformServices.dll
+D:\Repo\SignalRGameServer\bin\Debug\netcoreapp3.1\Google.Apis.Auth.dll
+D:\Repo\SignalRGameServer\bin\Debug\netcoreapp3.1\Google.Apis.Core.dll

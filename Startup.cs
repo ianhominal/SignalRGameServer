@@ -27,7 +27,16 @@ namespace SignalRTest
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
-            services.AddSignalR();
+
+           // services.AddSingleton<IUserIdProvider, CustomEmailProvider>();
+
+            services.AddSignalR(options =>
+            {
+                options.EnableDetailedErrors = true;
+                options.ClientTimeoutInterval = TimeSpan.FromSeconds(30);
+                options.KeepAliveInterval = TimeSpan.FromSeconds(10);
+            });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -40,27 +49,17 @@ namespace SignalRTest
             else
             {
                 app.UseExceptionHandler("/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-                //app.UseHsts();
             }
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseRouting();
 
-   // desactiva la autenticación en SignalR
-
-            //        app.UseCors(builder =>
-            //builder.WithOrigins("http://181.171.133.9:44331")
-            //       .AllowCredentials()
-            //       .AllowAnyHeader()
-            //       .AllowAnyMethod());
-
-           // app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
+                endpoints.MapHub<MainMenuHub>("/MainMenuHub"); // Registra la ruta de acceso del Hub
                 endpoints.MapHub<GameHub>("/GameHub"); // Registra la ruta de acceso del Hub
                 
             });

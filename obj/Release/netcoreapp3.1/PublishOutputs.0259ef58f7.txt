@@ -41,6 +41,10 @@ D:\Repo\SignalRGameServer\obj\Release\netcoreapp3.1\PubTmp\Out\SignalRTest.dll
 D:\Repo\SignalRGameServer\obj\Release\netcoreapp3.1\PubTmp\Out\SignalRTest.deps.json
 D:\Repo\SignalRGameServer\obj\Release\netcoreapp3.1\PubTmp\Out\SignalRTest.runtimeconfig.json
 D:\Repo\SignalRGameServer\obj\Release\netcoreapp3.1\PubTmp\Out\SignalRTest.pdb
+D:\Repo\SignalRGameServer\obj\Release\netcoreapp3.1\PubTmp\Out\Google.Apis.dll
+D:\Repo\SignalRGameServer\obj\Release\netcoreapp3.1\PubTmp\Out\Google.Apis.Auth.PlatformServices.dll
+D:\Repo\SignalRGameServer\obj\Release\netcoreapp3.1\PubTmp\Out\Google.Apis.Auth.dll
+D:\Repo\SignalRGameServer\obj\Release\netcoreapp3.1\PubTmp\Out\Google.Apis.Core.dll
 D:\Repo\SignalRGameServer\obj\Release\netcoreapp3.1\PubTmp\Out\Newtonsoft.Json.dll
 D:\Repo\SignalRGameServer\obj\Release\netcoreapp3.1\PubTmp\Out\System.Net.WebSockets.WebSocketProtocol.dll
 D:\Repo\SignalRGameServer\obj\Release\netcoreapp3.1\PubTmp\Out\SignalRTest.Views.dll
